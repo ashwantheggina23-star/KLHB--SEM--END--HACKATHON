@@ -1,0 +1,35 @@
+Scenario: Personal Banking Ledger System
+A bank wants to develop a personal banking ledger application to manage accounts and track daily financial transactions. Store the account holder name, account number, and initial balance. Customers should be able to deposit and withdraw money by providing different combinations of transaction details.
+Validate transactions to prevent withdrawals exceeding the available balance, maintain the updated balance, and record transaction descriptions. Use String manipulation to process customer names, compare account holder details, and generate a summary showing customer information, transaction history, total deposits, total withdrawals, and final balance.
+Task: Develop a Java application to simulate this personal banking ledger system using constructors, method overloading, and String manipulation. Include successful deposits and withdrawals, an attempted withdrawal exceeding the available balance, and account holder name verification.
+Expected Output:
+========== PERSONAL BANKING LEDGER ==========
+
+Account Holder Name : RAVI KUMAR
+Account Number      : 1234567890
+Initial Balance     : Rs. 10000.00
+
+---------- TRANSACTION DETAILS ----------
+Deposit Amount      : Rs. 5000.00
+Transaction Status  : Deposit Successful
+Updated Balance     : Rs. 15000.00
+
+Withdrawal Amount   : Rs. 2000.00
+Transaction Status  : Withdrawal Successful
+Updated Balance     : Rs. 13000.00
+
+Withdrawal Amount   : Rs. 20000.00
+Transaction Status  : Insufficient Balance
+Available Balance   : Rs. 13000.00
+
+---------- ACCOUNT SUMMARY ----------
+Account Holder      : RAVI KUMAR
+Account Number      : 1234567890
+Total Deposits      : Rs. 5000.00
+Total Withdrawals   : Rs. 2000.00
+Final Balance       : Rs. 13000.00
+
+Account Holder Verification: Names Match
+=============================================
+Note: The output is illustrative. Actual output should depend on the transactions processed by the program.
+Answer text Question 1
